@@ -1,0 +1,136 @@
+:root{
+    --background-color: rgb(6,10,25);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Darker Grotesque", monospace;
+    color: white;
+    background-color: var(--background-color);
+    transition: 0.8 ease;
+    line-height: 1.5;
+}
+
+
+
+h2{
+    font-weight: 300;
+    font-size: 26px;
+}
+
+
+ul{list-style-type: none;}
+
+ul li a{
+    text-decoration: none;
+    padding: 2px;
+    margin: 0 0.8rem;
+    color: white;
+    font-weight: 800;
+}
+
+/* Navigation */
+.navBar{
+    background-color: var(--background-color);
+    height: 75px;
+}
+
+.navContainer{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 min(40px, 10%);
+}
+
+.navContainer.flex {
+    justify-content: space-around;
+}
+
+.navContainer ul{
+    display: flex;
+}
+
+.logowrapper{
+    width: 70px;
+}
+
+.line{
+    background-color: var(--background-color);
+    width: min(1000px,80%);
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.line hr{
+    border: 0;
+    border-bottom: 1px solid rgb(105,105,105);
+}
+
+.socials{
+    color: white;
+    padding: 9px 25px;
+    border: 1.5px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 7px;
+
+}
+
+.personalInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.personalInfo h1{
+    font-size: 90px;
+}
+
+
+.imageContainer{
+    background: url("/1111111111111.png") ,url("/blob-haikei.png");
+    width: 400px;
+    height: 600px;
+    margin: 35px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about.flex{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 50px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.btnHire{
+    margin-left: auto;
+    margin-top: 200px;
+    width: 175px;
+    height: 50px;
+    border-radius: 5px;
+    border-bottom-right-radius: 25px;
+    background-color: var(--background-color);
+    font-size: 16.5px;
+}
+
+.aboutWrapper h2:nth-child(1){
+    width: 450px;
+    margin-left: auto;
+    text-align: right;
+}
+
+
+.projects{
+    height: 100vh;
+    background-color: white;
+}
