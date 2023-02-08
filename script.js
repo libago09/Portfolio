@@ -1,7 +1,9 @@
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; 
 
 const test = document.querySelector('h1');
+const myName = document.getElementsByClassName("hiasdasd")
 
+// myName[0].addEventListener("mouseover", event => mouseOverHandler(event));
 test.addEventListener("mouseover", event => mouseOverHandler(event));
 
 
